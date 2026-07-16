@@ -2,49 +2,49 @@ const messagesData = [
     {
         id: 1, sender: 'De: Papá', title: 'SIEMPRE CERCA',
         message: "Hola hijo, me da gusto que te está llendo bien, a pesar de que te encuentras lejos te siento relativamente cerca, me acuerdo mucho está fecha cuando nos reunimos para celebrar, hoy lo haremos de manera distinta felicitándote a la distancia con el mismo cariño y amor de siempre. Recibe muchos abrazos y besos de tu papi que te quiere y te ama.\n\nFirma tibuld73@gmail.com.",
-        image: 'img/HeberPapa.jpg',
+        image: 'HeberPapa.jpg',
         accentColor: 'halo-ring'
     },
     {
         id: 2, sender: 'De: Mamá', title: 'BENDICIÓN Y GUÍA',
         message: "Querido hijo:\n\nHoy es un día muy especial porque Dios te concede un año más de vida, y aunque la distancia nos separa, quiero que sepas que siempre estás presente en mi corazón and en mis oraciones.\n\nDesde que naciste, has sido una gran bendición para nuestra familia. He visto tu crecimiento, tus luchas, tus esfuerzos y también las victorias que Dios te ha permitido alcanzar. Me siento orgullosa del hombre en que te has convertido.\n\nAunque estés lejos de casa y de nuestro país, deseo que nunca olvides que eres profundamente amado. Cada día le pido al Señor que te cuide, que guarde tu salida y tu entrada, que te dé salud, sabiduría y fortaleza para enfrentar cada desafío.\n\nEn este cumpleaños quiero recordarte las palabras de la Escritura: \"Porque yo sé los pensamientos que tengo acerca de vosotros, dice Jehová, pensamientos de paz y no de mal, para daros el fin que esperáis\" (Jeremías 29:11).\n\nHijo, que nunca te apartes de los caminos del Señor. Busca siempre su dirección y confía en Él en todo momento. Ningún lugar está demasiado lejos para el amor de Dios ni para el amor de una madre.\n\nTe extraño mucho, pero me alegra saber que estás construyendo tu futuro. Que este nuevo año de vida venga acompañado de bendiciones, oportunidades, protección y mucha paz.\n\nRecibe un fuerte abrazo a la distancia y todo mi cariño. Que Dios te bendiga abundantemente hoy y siempre.\n\n¡Feliz cumpleaños, hijo amado!\n\nCon todo mi amor,\n\nTu mamá.",
-        image: 'img/HeberMama.jpg',
+        image: 'HeberMama.jpg',
         accentColor: 'halo-energy'
     },
     {
         id: 3, sender: 'De: Male', title: 'CELEBRO TU EXISTIR',
         message: "Hebercito\n\nHoy en tu cumpleaños celebro que existas y que seas exactamente como eres. Tu bondad, tu sonrisa y amor hacen que cada día sea mejor. Agradezco a Dios el haberte traído a mi vida. Nuestro camino juntos ha estado lleno de felicidad y esa vibración con la que vives es una bendición para mí. Deseo que Dios bendiga tu corazón, pero sobre todo que Dios bendiga cada dia de tu existir.\n\n¡Feliz cumpleaños amor! Te amo ❤️",
-        image: 'img/HeberMale.jpg',
+        image: 'HeberMale.jpg',
         accentColor: 'halo-success'
     },
     {
         id: 4, sender: 'De: Ali', title: 'HERMANO MAYOR',
         message: "Holis holis bro.\n\nDada las circunstancias en las cuales nos podemos estar celebrando tu cumpleaños número 29 como familia conjunta, cada uno de nosotros decidimos expresar un poco de lo tanto que te queremos y amamos, y como mi único hermano mayor, creo que no me había dado cuenta de cuánto había disfrutado ser hermano menor, hasta cuándo me tocó ser a mi ser el mayor ahora JSJSJS.\n\n Le doy gracias a Dios por tu vida, por lo mucho que has ido creciendo y madurado pero sin perder esa escencia que tanto te caracteriza, por cómo dónde quiera vas te ganas el corazón de las personas por ser como eres, para mí el mejor hermano mayor.\n\nAnte las adversidades, confía en Dios, ora y espera en él, sabemos que siempre, al final de todo las cosas obran para bien aunque cuesta entenderlo, pero siempre debemos estar en la fé y esperanza de que las cosas son por un propósito.\n\nTe mando mis felicitaciones, un abrazo muy grande, que está carta te recuerde que te quiero y queremos mucho, y decidimos hacer ésto para que tengas un poquito de todo lo que sentimos escrito en algún lugar donde puedas verlo.\n\nFeliz cumpleaños hermano mayor, que disfrutes tu día, nos calma un poco saber que no está solo, primero Dios y porque estás con Male, así que podemos estar tranquilos de que tendrás un buen cumple. Sin importar la distancia o el tiempo, sabes siempre estaremos esperando por volver a pasar tiempo juntos, hasta entonces ponky, te queremos mucho mucho 🤍",
-        image: 'img/HeberAli.jpg',
+        image: 'HeberAli.jpg',
         accentColor: 'halo-accent'
     },
     {
         id: 5, sender: 'De: Michel', title: 'TU HERMANA FAVORITA',
         message: "Holis Ponky 🐻\n\nPrimero que nada, quiero darle gracias a Dios por haberme permitido tener un hermano tan bondadoso, tan cariñoso, gracioso y todo lo que tú eres.. ❤️\n\nQuiero que sepas que te admiro tanto, por todo el esfuerzo que has hecho en todos tus proyectos de vida, en tus sueños, a pesar de las dificultades que se puedan enfrentar ya sea familiar, laboral o personal, tu siempre has salido adelante.\n\nTodos estos años que vivimos juntos como hermanos verdaderamente unidos ya sea trabajando, jugando o haciendo cualquier cosa lo valore muchísimo, sin saber que pronto nos iba a separar, sin embargo pudimos aprovechar cada segundo de unión para convivir y tener estos hermosos recuerdos que aún viven en mi corazón 🖼️\n\nEste día, dónde cumples un año más de vida quiero desearte toda la felicidad que tú te mereces, que sigas cumpliendo tus sueños y metas. Que tú seas tu propia prioridad, ya sea físicamente y emocionalmente, que sepas que tan importante eres en nuestras vidas y no lo hablo como una carga o un peso, si no del valor que tienes como hermano, hijo, y pareja, lo importante e indispensable que eres para todos los que te rodean.\n\nGracias por todos los momentos que pasamos juntos ya sea nosotros dos o los cuatro, gracias por ese apoyo que siempre has tenido con nosotros, gracias por esos regalos que siempre hacen derramar lágrimas, muchas gracias por todo Ponky Ponky, no olvides que yo te quiero muchísimo y aunque a veces no lo demuestre con palabras, trato de hacerlo con acciones, como cuando te daba masajitos en la espalda después de trabajar...\n\nGracias por tanto y perdón por tan poco mi hermanito querido❤️\n\nAtte: Tu hermana favorita jaj",
-        image: 'img/HeberBrisa.jpg',
+        image: 'HeberBrisa.jpg',
         accentColor: 'halo-energy'
     },
     {
         id: 6, sender: 'De: Gael', title: 'ORGULLO Y ADMIRACIÓN',
         message: "Querido Heber (Funky Ponky)\n\n¡Feliz cumpleaños número 29! Al leer la carta que me escribiste por mis 18, quise aprovechar hoy para decirte lo mucho que te admiro. Me siento muy orgulloso de tenerte como hermano mayor; tu dedicación y constancia siempre han sido un ejemplo para mí.\n\nSiempre recordaré con mucho cariño nuestras risas, las bromas y esas partidas de Free Fire que tanto nos unieron. Gracias por ser mi guía y mi gran amigo.\n\nPara este año que comienzas, te deseo que Dios te llene de sabiduría y fuerza. Recuerda siempre las palabras de Josué 1:9 que tú mismo me compartiste: \"Mira que te mando que te esfuerces y seas valiente; no temas ni desmayes, porque Jehová tu Dios estará contigo...\" Sé que el Señor tiene planes maravillosos para ti.\n\nTe quiero muchísimo, hermano. Que este año venga lleno de bendiciones, salud y metas cumplidas. Siempre estaré aquí para ti, sin importar la distancia.\n\nCon mucho cariño y orgullo ❤️\n\n—Tu hermano menor, Gael.",
-        image: 'img/HeberGael.jpg',
+        image: 'HeberGael.jpg',
         accentColor: 'halo-ring'
     },
     {
         id: 7, sender: 'De: Tía Mary', title: 'TIKITO KANTOL',
         message: "Felíz cumpleaños Tikito Kantol aunque ya seas casi treintañero, yo siempre recordaré a un bebecito vestidito de amarillito, a un chinito con dos dientitos bien blancos, a un pequeño que me dió una buena mordida mientras lo cargaba, a un pequeño que usaba su pantaloncito hasta su pancita, siempre serás mi primer sobrinito al que cargué con tanta emoción, es impresionante lo rápido que pasan los años ahora ya somos adultos y me da mucho gusto y estoy muy orgullosa de tí que seas profesionista, estás siguiendo mis pasos pero de una manera más temprana y se que te irá muy bien por qué eres un muchacho responsable y gracias a ello estás en donde ahorita, quizás no sea el empleo perfecto pero si es una fuente de ingreso muy diferente a la que teníamos en México, te deseo cosas bonitas, paz, amor, tranquilidad y sobre todo que disfrutes esta etapa de la vida. Te quiero muchísisimo y espero ir a visitarte pronto. Abracitos.",
-        image: 'img/clasificado.jpg',
+        image: 'clasificado.jpg',
         accentColor: 'halo-accent'
     },
     {
         id: 8, sender: 'De: Tía Chivis', title: 'SUEÑOS Y METAS',
         message: "Hola Hebercito!! 😀Te deseamos un cumpleaños muy felíz, 🎉 🥳 el abuelo, Valecita y yo. 💐 Pues ahora estás más lejos y no podemos darte abracitos pero deseamos lo mejor para tí. 🫂 Siempre estás en nuestros pensamientos te queremos mucho, muchoooo y por supuesto también te extrañamos, sigue trabajando para cumplir tus metas y tus sueños, ya has logrado bastante eso me da mucho gusto. Espero que la pases súper bien en este día tan especial que es tu cumple.\n\nTu tía chivis. 😀❤️",
-        image: 'img/clasificado.jpg',
+        image: 'clasificado.jpg',
         accentColor: 'halo-success'
     }
 ];
