@@ -1,0 +1,84 @@
+body {
+    /* Color de respaldo */
+    background-color: #050b14; 
+    color: #f8fafc;
+    overflow-x: hidden;
+    /* Aquí aplicamos la imagen de Halo que solicitaste como fondo fijo */
+    background-image: url('image_920c33.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bg-overlay {
+    /* Un gradiente que permite ver el brillo del planeta arriba, pero da contraste abajo */
+    background: linear-gradient(to bottom, rgba(5, 11, 20, 0.2) 0%, rgba(5, 11, 20, 0.7) 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.glass-card {
+    background: rgba(13, 27, 42, 0.4);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(76, 201, 240, 0.15); /* Borde cyan sutil */
+    /* Patrón de cuadrícula tecnológica holográfica */
+    background-image: 
+        linear-gradient(rgba(76, 201, 240, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(76, 201, 240, 0.03) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.card-hover:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 10px 40px -10px rgba(76, 201, 240, 0.3);
+    border-color: rgba(76, 201, 240, 0.5);
+}
+
+.hologram-effect {
+    position: relative;
+    overflow: hidden;
+}
+
+.hologram-effect::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, rgba(76, 201, 240, 0.2), transparent);
+    transform: skewX(-25deg);
+    transition: 0.7s;
+}
+
+.hologram-effect:hover::after {
+    left: 150%;
+}
+
+.scanlines {
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0) 50%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.1));
+    background-size: 100% 4px;
+}
+
+.fade-in {
+    animation: fadeIn 0.4s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; backdrop-filter: blur(0px); }
+    to { opacity: 1; backdrop-filter: blur(12px); }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
