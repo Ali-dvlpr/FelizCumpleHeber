@@ -20,7 +20,7 @@ const messagesData = [
     {
         id: 4, sender: 'De: Ali', title: 'HERMANO MAYOR',
         message: "Holis holis bro.\n\nDada las circunstancias en las cuales nos podemos estar celebrando tu cumpleaños número 29 como familia conjunta, cada uno de nosotros decidimos expresar un poco de lo tanto que te queremos y amamos, y como mi único hermano mayor, creo que no me había dado cuenta de cuánto había disfrutado ser hermano menor, hasta cuándo me tocó ser a mi ser el mayor ahora JSJSJS.\n\n Le doy gracias a Dios por tu vida, por lo mucho que has ido creciendo y madurado pero sin perder esa escencia que tanto te caracteriza, por cómo dónde quiera vas te ganas el corazón de las personas por ser como eres, para mí el mejor hermano mayor.\n\nAnte las adversidades, confía en Dios, ora y espera en él, sabemos que siempre, al final de todo las cosas obran para bien aunque cuesta entenderlo, pero siempre debemos estar en la fé y esperanza de que las cosas son por un propósito.\n\nTe mando mis felicitaciones, un abrazo muy grande, que está carta te recuerde que te quiero y queremos mucho, y decidimos hacer ésto para que tengas un poquito de todo lo que sentimos escrito en algún lugar donde puedas verlo.\n\nFeliz cumpleaños hermano mayor, que disfrutes tu día, nos calma un poco saber que no está solo, primero Dios y porque estás con Male, así que podemos estar tranquilos de que tendrás un buen cumple. Sin importar la distancia o el tiempo, sabes siempre estaremos esperando por volver a pasar tiempo juntos, hasta entonces ponky, te queremos mucho mucho 🤍",
-        image: 'img/HeberAli.jpg',
+        image: 'HeberAli.jpg',
         accentColor: 'halo-accent'
     },
     {
@@ -262,19 +262,26 @@ let bannerTimer = null;
 // Lógica de deslizado táctil (Swipe) para móviles
 function addSwipeListener(element, onSwipeLeft, onSwipeRight) {
     let startX = 0;
-    let endX = 0;
+    let startY = 0;
     
     element.addEventListener('touchstart', e => {
         startX = e.changedTouches[0].screenX;
+        startY = e.changedTouches[0].screenY;
     }, { passive: true });
     
     element.addEventListener('touchend', e => {
-        endX = e.changedTouches[0].screenX;
-        const diff = endX - startX;
+        let endX = e.changedTouches[0].screenX;
+        let endY = e.changedTouches[0].screenY;
+        let diffX = endX - startX;
+        let diffY = endY - startY;
+        
+        // Ignorar si el movimiento fue principalmente vertical (scroll)
+        if (Math.abs(diffY) > Math.abs(diffX)) return;
+
         const threshold = 50;
-        if (diff < -threshold) {
+        if (diffX < -threshold) {
             onSwipeLeft();
-        } else if (diff > threshold) {
+        } else if (diffX > threshold) {
             onSwipeRight();
         }
     }, { passive: true });
@@ -312,13 +319,13 @@ if (bannerSlider) {
         isSliderTransitioning = false;
         
         // Salto instantáneo del clon al real
-        if (currentSlideIndex === 5) {
+        if (currentSlideIndex === 6) {
             bannerSlider.style.transition = 'none';
             currentSlideIndex = 1;
             bannerSlider.style.transform = `translateX(${-currentSlideIndex * 100}%)`;
         } else if (currentSlideIndex === 0) {
             bannerSlider.style.transition = 'none';
-            currentSlideIndex = 4;
+            currentSlideIndex = 5;
             bannerSlider.style.transform = `translateX(${-currentSlideIndex * 100}%)`;
         }
     });
